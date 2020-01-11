@@ -1,0 +1,468 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link rel="bookmark"  type="image/x-icon"  href="/img/logo_miccall.png"/>
+	<link rel="shortcut icon" href="/img/logo_miccall.png">
+	
+			    <title>
+    Hexo
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/css/mic_main.css" />
+    <link rel="stylesheet" href="/css/dropdownMenu.css" />
+    <meta name="keywords" content="miccall" />
+    
+    	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	 
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css" />
+    </noscript>
+    <style type="text/css">
+        body:before {
+          content: ' ';
+          position: fixed;
+          top: 0;
+          background: url('/img/bg.jpg') center 0 no-repeat;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-size: cover; 
+        }
+    </style>
+
+			    
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+<meta name="generator" content="Hexo 4.2.0"></head>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_coy.css" />
+<link rel="stylesheet" href="/css/typo.css" />
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">URIEL</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special" >
+            <ul class="menu links" >
+			<!-- Homepage  主页  --> 
+			<li >
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="category-link" href="/categories/Java/">Java</a></li><li><a class="category-link" href="/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/">大数据</a></li><li><a class="category-link" href="/categories/%E6%95%B0%E5%AD%A6/">数学</a></li><li><a class="category-link" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/">计算机组成原理</a>
+	                    </ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/about/" title="简历">
+		                简历
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/tag/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+                    
+                    <li>
+                        <a title="github" href="https://github.com/Chenshasan/Typora-Lotebook-of-LGL" target="_blank" rel="noopener">
+                            <i class="icon fa fa-github"></i>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a title="500px" href="http://500px.com" target="_blank" rel="noopener">
+                            <i class="icon fa fa-500px"></i>
+                        </a>
+                    </li>
+                    
+			</ul>
+</nav>
+
+        <div id="main" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url(https://github.com/miccall/MyTextures/blob/master/271043-106.jpg?raw=true);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >计算机组成原理(1)</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <h2 id="计算机组成原理（1）"><a href="#计算机组成原理（1）" class="headerlink" title="计算机组成原理（1）"></a>计算机组成原理（1）</h2><h2 id="ALU运算策略"><a href="#ALU运算策略" class="headerlink" title="ALU运算策略"></a>ALU运算策略</h2><h3 id="整数乘法"><a href="#整数乘法" class="headerlink" title="整数乘法"></a>整数乘法</h3><p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191220162501150.png" alt="image-20191220162501150"></p>
+<h3 id="整数除法"><a href="#整数除法" class="headerlink" title="整数除法"></a>整数除法</h3><p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191220164006762.png" alt="image-20191220164006762"></p>
+<h2 id="冯诺依曼模型"><a href="#冯诺依曼模型" class="headerlink" title="冯诺依曼模型"></a>冯诺依曼模型</h2><h3 id="计算机组成总览"><a href="#计算机组成总览" class="headerlink" title="计算机组成总览"></a>计算机组成总览</h3><ul>
+<li><p>I/O</p>
+<p>和CPU、主存交换数据</p>
+<p>问题:   和CPU/内存的速度差距越来越大</p>
+<p>解决:   缓冲    新的接口技术</p>
+</li>
+<li><p>主存</p>
+<p>数据和指令储存在主存中</p>
+<p>问题:   主存与CPU之间的传输速度差距越来越大</p>
+<p>解决:   包含寄存器(cache)缓冲数据减少对内存访问量、增加每次读取的字节数</p>
+</li>
+<li><p>CPU</p>
+<p>处理数据</p>
+</li>
+<li><p>系统总线</p>
+</li>
+</ul>
+<h2 id="cache"><a href="#cache" class="headerlink" title="cache"></a>cache</h2><p>基本思想为提高内存的速度，当使用数据时，先到cache中寻找，如果没有找到，再到内存中读取数据，并将数据块存入cache中</p>
+<p>应用原理为：程序执行的局部性</p>
+<img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/image-20200103132958782.png" alt="image-20200103132958782" style="zoom:67%;">
+
+<p><strong>计算cache的平均访问时间</strong></p>
+<p>注意使用cache的hit率来进行计算</p>
+<img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/image-20200103133150234.png" alt="image-20200103133150234" style="zoom:67%;">
+
+<h3 id="direct-mapping"><a href="#direct-mapping" class="headerlink" title="direct mapping"></a>direct mapping</h3><p>内存地址直接通过address mod cacheline的方式来映射到cache上，因此在寻找cache时只需要找一行，对于这一行进行tag的对比即可</p>
+<p>对于Tag的计算，总地址长度减去cache中一行的字长和cache行数，其余的部分即为tag</p>
+<img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/clip_image002.png" alt="img" style="zoom:80%;">
+
+<p>优点：寻找，写入比较快</p>
+<p>缺点：当cache比较小时，很多块会对应同一行，所以会反复对同一行内容进行修改，发生抖动</p>
+<h3 id="associate-mapping"><a href="#associate-mapping" class="headerlink" title="associate mapping"></a>associate mapping</h3><p>内存能够加载到cache中的所有的行中，且是在任何有空的地方加载即可，因此搜索cache时需要搜索全部的cache直到搜索到该行</p>
+<p>Tag的计算为地址长度减去字长</p>
+<img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/clip_image002-1576335728111.png" alt="img" style="zoom: 50%;">
+
+<p>优点：能够避免抖动的发生</p>
+<p>寻找方法：跟替换策略有关</p>
+<h3 id="set-aassociative-mapping"><a href="#set-aassociative-mapping" class="headerlink" title="set aassociative mapping"></a>set aassociative mapping</h3><ul>
+<li>将cache分成很多组，则该行对应到某一确定的组，但在组内定义到每行是随机的（相当于先直接映射，再随机映射）</li>
+<li>因此内存中的地址映射到cache时直接通过address mod cacheGroup即可</li>
+<li>四路组、二路组等的名称来源于一个组分为多少个块</li>
+<li>组号不需要储存——原因类似于直接映射，中间一位为组中号</li>
+</ul>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/1571122059705.png" alt="1571122059705"></p>
+<p>相关性：每一行在cache中可以存放的位置</p>
+<h3 id="替换算法："><a href="#替换算法：" class="headerlink" title="替换算法："></a>替换算法：</h3><p>（对于associate mapping 和set associate mapping算法，需要替换算法来执行当cache中的内容不足时来决定替换哪一行）</p>
+<ul>
+<li><p>最不可能被用到的cache块，将其替换掉 LRU算法</p>
+</li>
+<li><p>FIFO（先进来先被替换掉）</p>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/1571123472493.png" alt="1571123472493"></p>
+</li>
+<li><p>least frequently used（最少使用的被替换掉） LFU算法</p>
+</li>
+<li><p>random</p>
+</li>
+</ul>
+<h3 id="write-policy："><a href="#write-policy：" class="headerlink" title="write policy："></a>write policy：</h3><p>为保存cache和主存的一致性，当cache被写入时也要写入主存，因此需要写回策略</p>
+<ul>
+<li><p>write through</p>
+<p>只要cache一被写过，就与主存联系，写回主存（降低写入速度）</p>
+</li>
+<li><p>write back</p>
+<p>当cache被写过之后，使用dirty bit标记，然后再写回（最小化主存的修改，但控制会很复杂）</p>
+</li>
+</ul>
+<h3 id="Line-size"><a href="#Line-size" class="headerlink" title="Line size"></a>Line size</h3><p>（确定cache的line size应该为多少时比较合适）</p>
+<p>由小变大时，hit 先会变大，因为一行中的数据变多，而一个程序调用集中在一起的数据的概率很大（局部性），但再变得更大时，hit可能会变小（依然是因为局部性），因为cache的总内容不变，行再变大时，减少了行数，替换变频繁反而降低了命中率</p>
+<h3 id="Number-of-cache"><a href="#Number-of-cache" class="headerlink" title="Number of cache"></a>Number of cache</h3><p>一级命中了就返回，要是一级没有命中，则寻找二级中的内容，如果命中了，则返回，并且将一块内容写入一级cache，如果二级没有命中，则寻找三级，如果命中了则返回，并且写入一级二级，如果仍然没有命中，则寻找主存内容</p>
+<h2 id="Internal-memory"><a href="#Internal-memory" class="headerlink" title="Internal memory"></a>Internal memory</h2><h3 id="存储位元"><a href="#存储位元" class="headerlink" title="存储位元"></a><strong>存储位元</strong></h3><p>基本的存储单元，要有如下的特性</p>
+<ul>
+<li>有0/1两种稳定的状态</li>
+<li>可以至少被写入一次</li>
+<li>可以被多次读取</li>
+</ul>
+<h3 id="RAM"><a href="#RAM" class="headerlink" title="RAM"></a>RAM</h3><p>(random access memory)随机访问寄存器</p>
+<p>特点：</p>
+<ul>
+<li>可以简单的读取和写入数据</li>
+<li>易失性</li>
+</ul>
+<h4 id="DRAM"><a href="#DRAM" class="headerlink" title="DRAM"></a>DRAM</h4><p><strong>dynamic</strong></p>
+<p>电容存储的寄存器，会随着时间流逝电量会逐渐消耗，电位可能会变化，因此需要刷新</p>
+<h4 id="SRAM"><a href="#SRAM" class="headerlink" title="SRAM"></a>SRAM</h4><p><strong>static</strong></p>
+<p>电位是稳定的，但是集成度低、价格高</p>
+<p>DRAM多用于主存（便宜），SRAM多用于寄存器</p>
+<h4 id="SDRAM"><a href="#SDRAM" class="headerlink" title="SDRAM"></a>SDRAM</h4><p>synchronous DRAM 同步DRAM</p>
+<ul>
+<li>会随着时钟信号来修改数据</li>
+<li>在一个时钟周期中只能进行一次数据修改</li>
+</ul>
+<h4 id="DDR-SDRAM"><a href="#DDR-SDRAM" class="headerlink" title="DDR SDRAM"></a>DDR SDRAM</h4><p>double data rate</p>
+<ul>
+<li>在一个时钟周期中能够进行两次的数据修改</li>
+</ul>
+<h3 id="ROM"><a href="#ROM" class="headerlink" title="ROM"></a>ROM</h3><p>read only memory</p>
+<ul>
+<li>非易失</li>
+<li>但只能够写一次，不能够重复修改</li>
+<li>成本比RAM要高，且只能读取一次</li>
+</ul>
+<p>可以应用在微编程、系统程序、函数表上</p>
+<h4 id="PROM"><a href="#PROM" class="headerlink" title="PROM"></a>PROM</h4><p>programmable ROM 可编程只读寄存器</p>
+<ul>
+<li>非易失</li>
+<li>只能写入一次，再次修改时需要特殊的电子环境且时间很长（20Min）</li>
+</ul>
+<h3 id="Read-Mostly-Memory"><a href="#Read-Mostly-Memory" class="headerlink" title="Read-Mostly Memory"></a>Read-Mostly Memory</h3><p>可多次写入，但读的次数比写的次数方便且一般比写的次数应用的多，非易失</p>
+<h4 id="EPROM"><a href="#EPROM" class="headerlink" title="EPROM"></a>EPROM</h4><p>Erasible PROM 可擦出的可编程只读寄存器</p>
+<ul>
+<li>可进行读写操作，但需要用紫外线擦除，且是整块擦除（较快）</li>
+<li>比PROM贵</li>
+</ul>
+<h4 id="EEPROM"><a href="#EEPROM" class="headerlink" title="EEPROM"></a>EEPROM</h4><p>Electrically EPROM 可电擦除只读寄存器</p>
+<ul>
+<li>可以写入，并且无需擦除数据，按字节覆盖即可</li>
+<li>比EPROM贵</li>
+</ul>
+<h4 id="Flash-memory"><a href="#Flash-memory" class="headerlink" title="Flash-memory"></a>Flash-memory</h4><p>闪存</p>
+<ul>
+<li>电擦除</li>
+<li>可以以块为单位擦除</li>
+</ul>
+<h3 id="从存储位元到主存"><a href="#从存储位元到主存" class="headerlink" title="从存储位元到主存"></a>从存储位元到主存</h3><ol>
+<li>几个相同的存储位元通过编制的方式组成一个地址单位（编制方式有Bytes（更常见）/words）</li>
+<li>多个地址集合组成存储的阵列</li>
+<li>存储阵列进一步的扩展，扩展方式有字扩展（字的结构不变，增加字数，相当于增加内存条）和位扩展（增加一个字中的位数）</li>
+<li>主存=RAM+ROM</li>
+</ol>
+<h2 id="External-memory"><a href="#External-memory" class="headerlink" title="External memory"></a>External memory</h2><p>特性：使用频率不高，因此可以使用外部储存</p>
+<p>种类：</p>
+<ul>
+<li>magnetic disk</li>
+<li>optical memory</li>
+<li>magnetic type</li>
+<li>USB flash disk,solid state disk(SSD):flash</li>
+</ul>
+<h3 id="Magnetic-disk"><a href="#Magnetic-disk" class="headerlink" title="Magnetic disk"></a>Magnetic disk</h3><p>软盘：存储容量低</p>
+<p>硬盘：硬盘驱动器与硬盘相连:movable head 能够读取磁盘上的信息</p>
+<h4 id="磁盘结构："><a href="#磁盘结构：" class="headerlink" title="磁盘结构："></a>磁盘结构：</h4><p>如下结构为温氏磁盘：</p>
+<ul>
+<li>磁盘磁头封装在一个无污染密闭的容器中</li>
+<li>当磁盘不动时，磁头以气垫的形式轻停在磁盘表面</li>
+<li>当磁盘旋转时，磁头因为气压的作用而上升，与盘面分离</li>
+</ul>
+<img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/1571125574898.png" alt="1571125574898" style="zoom:50%;">
+
+
+
+<h4 id="盘面结构"><a href="#盘面结构" class="headerlink" title="盘面结构"></a>盘面结构</h4><p>每个同心圆为一个磁道；每个磁道会分为多个扇区——扇区中所储存的容量是一样大的，一般认为为512B</p>
+<p>磁道最外面的编号为0</p>
+<img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/image-20191029143331761.png" alt="image-20191029143331761" style="zoom:50%;">
+
+<h4 id="扇区排列方式："><a href="#扇区排列方式：" class="headerlink" title="扇区排列方式："></a>扇区排列方式：</h4><p>需要保证每一个扇区的容量相等</p>
+<ul>
+<li><p>上面一种：当数据稳定读取时，因为其排列方式，所以读取磁道的角速度是稳定的</p>
+<p>好处：转动角速度相同</p>
+<p>坏处：磁道的分组比较复杂</p>
+</li>
+<li><p>下面一种：当数据读取稳定时，里面的转动角速度应该更快，才能保证读取扇区相同（分成很多个大环，大环内部角速度相同，大环之间角速度不同(一个大环里面的划扇区相同，可近似认为其弧长相等，但实际不等)）</p>
+</li>
+</ul>
+<img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/image-20191029143606439.png" alt="image-20191029143606439" style="zoom:33%;">
+
+<h4 id="磁盘微观结构"><a href="#磁盘微观结构" class="headerlink" title="磁盘微观结构"></a>磁盘微观结构</h4><p>ID field：同步字节，磁道号，扇区编号</p>
+<p>Gap:给处理信息之前的比对时间</p>
+<p>Data field：数据区</p>
+<p>格式化：加上一些额外数据使磁盘中某些数据不能被访问</p>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191029144749646.png" alt="image-20191029144749646"></p>
+<h4 id="磁道访问的时间轴："><a href="#磁道访问的时间轴：" class="headerlink" title="磁道访问的时间轴："></a>磁道访问的时间轴：</h4><ul>
+<li>seek 将磁头移到需要到达的磁道</li>
+<li>rotational delay 等待扇区的同步字节旋转到磁头的时间（读的时候旋转比写的时候快时，会造成扇区容易错过，需要再等一圈）</li>
+<li>data transfer 数据的传输时间 num of bytes to be tranfered/(num of bytes on the track*rotation speed)</li>
+</ul>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191029150444790.png" alt="image-20191029150444790"></p>
+<h4 id="磁盘的存储方式："><a href="#磁盘的存储方式：" class="headerlink" title="磁盘的存储方式："></a>磁盘的存储方式：</h4><ul>
+<li>文件储存在连续的扇区内</li>
+<li>文件随机储存</li>
+</ul>
+<h4 id="寻道方式："><a href="#寻道方式：" class="headerlink" title="寻道方式："></a>寻道方式：</h4><ul>
+<li>FCFS first com first service(能够严格保证最开始的数据最先处理，但可能寻址很远)</li>
+<li>SSTF shortest seek time first(提高效率，但可能会有数据始终没有被处理或者很久以后才被处理)</li>
+<li>SCAN 从磁道0-n(来回扫描)</li>
+<li>C-SCAN 从磁道0-n（从n-0的过程为放空）</li>
+<li>LOOK 来回扫描但不一定到头</li>
+</ul>
+<h3 id="optical-disk"><a href="#optical-disk" class="headerlink" title="optical disk"></a>optical disk</h3><h4 id="光盘结构："><a href="#光盘结构：" class="headerlink" title="光盘结构："></a>光盘结构：</h4><p>两面均为光滑的，中间的金属盘不平</p>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191029153928153.png" alt="image-20191029153928153"></p>
+<h4 id="光盘种类："><a href="#光盘种类：" class="headerlink" title="光盘种类："></a>光盘种类：</h4><ol>
+<li>CD</li>
+<li>CD-ROM(能够通过特定的仪器修改印错的内容)</li>
+<li>CD-RW（特殊材料，能够被镭射灯改变反射性，可擦写）</li>
+<li>CD-R（有一个染色层，染色层能够被高强度辐射激活，这个disk能够被CD-R/CD-ROM读取）</li>
+<li>DVD 可以刻印两面，可以双面读取，反射层在中间（bits的排列更紧密）</li>
+</ol>
+<h3 id="Magnetic-tape"><a href="#Magnetic-tape" class="headerlink" title="Magnetic tape"></a>Magnetic tape</h3><p>使用与磁盘相同的存储机制</p>
+<p>容量大，存取快</p>
+<h2 id="Error-Correction"><a href="#Error-Correction" class="headerlink" title="Error Correction"></a>Error Correction</h2><p>添加额外的信息来进行判断（额外的信息也可能出错）</p>
+<p>Data in：从D生成校验码C，方法为f（f认为是不会出错的）</p>
+<p>Data out：C拷贝出来，生成为C‘，然后D拷贝出来为D’，D’生成C‘’</p>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191105151239803.png" alt="image-20191105151239803"></p>
+<h3 id="奇偶校验：通过移位判断1和0的个数"><a href="#奇偶校验：通过移位判断1和0的个数" class="headerlink" title="奇偶校验：通过移位判断1和0的个数"></a>奇偶校验：通过移位判断1和0的个数</h3><p>方式：假设D=D<sub>M</sub>…D<sub>2</sub>D<sub>1</sub></p>
+<p>Data in:</p>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191105151337261.png" alt="image-20191105151337261"></p>
+<p>Data out：</p>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191105151946794.png" alt="image-20191105151946794"></p>
+<p>奇数校验：C和D中1的个数和为奇数</p>
+<p>偶数校验：C和D中1的个数和为偶数</p>
+<p>检验方式：</p>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191105152022493.png" alt="image-20191105152022493"></p>
+<p>缺点:如果有偶数个数的位同时出错时，检验不出来/不能够发现什么地方出错</p>
+<h3 id="Hamming-Code"><a href="#Hamming-Code" class="headerlink" title="Hamming Code"></a>Hamming Code</h3><p>通过奇偶校验判断是否出错，但是对于01串分组，基本逻辑可认为：相交的组均出错，则基本认为错误来源是其相交的部分</p>
+<ul>
+<li><p>C’和C’’异或之后的结果为syndrome word</p>
+</li>
+<li><p>希望通过syndrome word来表示错误的位数</p>
+</li>
+<li><p>假设syndrome word为K位，c为K位，D为m位，则应满足：2<sup>k</sup>&gt;=m+k+1</p>
+</li>
+<li><p>通过改变异或的方式，来使得D中或C中的相应位数出错时，syndrome word有相应的表示</p>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191105153605849.png" alt="image-20191105153605849"></p>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191105153659499.png" alt="image-20191105153659499"></p>
+</li>
+</ul>
+<p>hamming code改善：加C<sub>5</sub>可判断两个位出错时的情况</p>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191105154322513.png" alt="image-20191105154322513"></p>
+<h3 id="CRC："><a href="#CRC：" class="headerlink" title="CRC："></a>CRC：</h3><p>cyclic redundancy check:在流的情况下处理数据</p>
+<p>给长串的数据进行错误判断</p>
+<p>基本逻辑：</p>
+<p>从m位的D需要得到k+m的传输数据，生成一个k+1位的多项式，生成的k位的余数，余数即为生成的C，存储，然后将取出的k+m位的数据做同样的除法操作，余数应为k个0</p>
+<p>从D到C的计算方式为多项式除法</p>
+<h2 id="RAID"><a href="#RAID" class="headerlink" title="RAID"></a>RAID</h2><p>redundant array of independent disks 磁盘冗余阵列</p>
+<p>将单个或者多个I/O请求分配给多个盘，降低单个盘的负担</p>
+<h3 id="RAID-level-0"><a href="#RAID-level-0" class="headerlink" title="RAID level 0"></a>RAID level 0</h3><p>原理：使用多个磁盘处理多个请求时，可以多个磁盘同时处理，能够提高速率</p>
+<ul>
+<li>更高的数据传输效率</li>
+<li>更快的IO相应速度（IO请求调用的数据可能不在一个磁盘中）</li>
+</ul>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191112144116741.png" alt="image-20191112144116741"></p>
+<h3 id="RAID-level-1"><a href="#RAID-level-1" class="headerlink" title="RAID level 1"></a>RAID level 1</h3><p>储存level 0的磁盘的数据复制，防止level 0的磁盘出错</p>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191112144129807.png" alt="image-20191112144129807"></p>
+<ul>
+<li>RAID 1的读取会更快，因为两边同时读取，选最快的速度</li>
+<li>写的时候要两边同时更新，但可以同时进行</li>
+<li>缺点是耗费大</li>
+</ul>
+<h3 id="RAID-level-2"><a href="#RAID-level-2" class="headerlink" title="RAID level 2"></a>RAID level 2</h3><p>将数据的校验码储存在其他磁盘中，磁盘在IO请求时强制所有的磁盘进行IO处理（输入输出校验码）</p>
+<ul>
+<li>使用海明码校验</li>
+<li>开发成本较高</li>
+<li>磁盘的出错概率很小</li>
+</ul>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191112144757535.png" alt="image-20191112144757535"></p>
+<h3 id="RAID-level-3"><a href="#RAID-level-3" class="headerlink" title="RAID level 3"></a>RAID level 3</h3><p>（某一个盘坏了，用奇偶校验的方式恢复改盘的数据）</p>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191112145039206.png" alt="image-20191112145039206"></p>
+<h3 id="RAID-level-4"><a href="#RAID-level-4" class="headerlink" title="RAID level 4"></a>RAID level 4</h3><p>将RAID分成多个单独的block,则可以独立的相应多个IO请求，同时使用level 3的奇偶校验的模式</p>
+<p>（每次写的时候都要修改奇偶校验磁盘中相应位置的P，RAID磁盘能够独立处理IO请求，既可以多个盘同时处理多个请求，但奇偶校验的盘只能够同时处理一个请求，因此各磁盘没有办法相互独立）</p>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191112151025981.png" alt="image-20191112151025981"></p>
+<h3 id="RAID-level-5"><a href="#RAID-level-5" class="headerlink" title="RAID level 5"></a>RAID level 5</h3><ul>
+<li>没有办法控制读写的速率，最坏的情况是所有的盘读写的时间不是同时进行的，而是叠加的</li>
+<li>所有的盘并不是完全独立的，如使用block 0时会影响到p16-19的修改，从而影响其他4个盘</li>
+</ul>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191112151906161.png" alt="image-20191112151906161"></p>
+<h3 id="RAID-level-6"><a href="#RAID-level-6" class="headerlink" title="RAID level 6"></a>RAID level 6</h3><p>能够处理两个位出错时的状态</p>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191112152843245.png" alt="image-20191112152843245"></p>
+<h2 id="Virtual-Memory"><a href="#Virtual-Memory" class="headerlink" title="Virtual Memory"></a>Virtual Memory</h2><p>memory management:多个程序进行时，每个程序分配的内存不足</p>
+<h3 id="Solutions"><a href="#Solutions" class="headerlink" title="Solutions"></a>Solutions</h3><ol>
+<li>增加内存（不满足）</li>
+<li>Using exchange and overlap techniques </li>
+<li>Virtual memory </li>
+</ol>
+<h3 id="内存分区"><a href="#内存分区" class="headerlink" title="内存分区"></a>内存分区</h3><h4 id="fixed-partition"><a href="#fixed-partition" class="headerlink" title="fixed partition"></a>fixed partition</h4><p>分区方式：将内存分为大小不一样，但是大小不可变的内存区域</p>
+<img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/image-20191112153634885.png" alt="image-20191112153634885" style="zoom:33%;">
+
+<p>内存使用程序的原则：当前空白，能够放得下程序的最小的空间</p>
+<h4 id="Variable-lenth-partition"><a href="#Variable-lenth-partition" class="headerlink" title="Variable lenth partition"></a>Variable lenth partition</h4><p>分区方式：内存的大小不固定，根据程序需要的内存空间来分配，但是在程序载入和调出后，容易在内存中存在多个碎片，使得内存的总利用率降低，如图：</p>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191112154413686.png" alt="image-20191112154413686"></p>
+<h4 id="paging"><a href="#paging" class="headerlink" title="paging"></a>paging</h4><p>将程序分为多个大小相同的页，然后将这些页插入到内存当中，这些页的物理地址并不是按照程序执行的顺序进行的</p>
+<p>程序并不知道程序的头和尾相差具体为多少：存在逻辑地址（逻辑地址应该是可以确定的）和物理地址（物理地址的头尾地址差不清楚）</p>
+<img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/image-20191112154347590.png" alt="image-20191112154347590" style="zoom:67%;">
+
+<h3 id="Virtual-Memory-1"><a href="#Virtual-Memory-1" class="headerlink" title="Virtual Memory"></a>Virtual Memory</h3><h4 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h4><p>是假设程序的所有部分都在内存中（方便程序的编写），但实际上程序仅有一小部分真正运行的部分存在于内存中（demand page），对于运行部分的调用和变换通过操作系统完成</p>
+<h4 id="基本访问机制"><a href="#基本访问机制" class="headerlink" title="基本访问机制"></a>基本访问机制</h4><p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191119143922333.png" alt="image-20191119143922333"></p>
+<p>硬盘中有一个部分专门用来放置即将运行的所有的程序的页面</p>
+<p>cache比内存快10倍，内存比物理硬盘快10000倍（尽量减少对物理硬盘的访问）</p>
+<h4 id="基于pages的虚拟内存"><a href="#基于pages的虚拟内存" class="headerlink" title="基于pages的虚拟内存"></a>基于pages的虚拟内存</h4><p>虚页（virtual pages）/实页（physical pages）</p>
+<p>页表：包含了所有的虚页的信息</p>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191119144738650.png" alt="image-20191119144738650"></p>
+<p>vaild有效位：为1时表明它被载入到物理内存中</p>
+<p>dirty：是否被修改，需要写回</p>
+<h4 id="translation-lookaside-buffer"><a href="#translation-lookaside-buffer" class="headerlink" title="translation lookaside buffer"></a>translation lookaside buffer</h4><p>TBL：快表，类似于页表的cache，当需要寻找的虚页在TBL中且显示有效，即可以去cache中找了，如果没有找到就到内存中找（快表和页表与cache、内存之间没有必然联系，只是页有效时去cache或者内存中寻找内容）</p>
+<p>页表和快表的作用：将虚拟的页号换成物理的页号，虚拟地址即变成了物理地址</p>
+<h4 id="segment-based-virtual-memory"><a href="#segment-based-virtual-memory" class="headerlink" title="segment based virtual memory"></a>segment based virtual memory</h4><p>从cpu中开始，如果需要的数据在块表中，去cache中找（进行cache的访问）如果不在块表中，在页表中找，页表中如果有，继续访问cache，如果没有实际的物理内存，再访问硬盘</p>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20191119151011888.png" alt="image-20191119151011888"></p>
+<p>可能的结果：</p>
+<p><img src="/2020/01/11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-1/image-20200103145138540.png" alt="image-20200103145138540"></p>
+
+            </div>
+
+            <!-- Post Comments -->
+            
+
+        </div>
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener" style="border-bottom: none;">hexo</a></li>
+                <li>Design: <a href="http://miccall.tech " target="_blank" rel="noopener" style="border-bottom: none;">miccall</a></li>
+            </ul>
+            
+                <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+			
+        </div>
+    </div>
+</body>
+
+
+
+ 	
+</html>

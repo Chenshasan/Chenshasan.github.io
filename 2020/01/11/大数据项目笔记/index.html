@@ -1,0 +1,376 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link rel="bookmark"  type="image/x-icon"  href="/img/logo_miccall.png"/>
+	<link rel="shortcut icon" href="/img/logo_miccall.png">
+	
+			    <title>
+    Hexo
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/css/mic_main.css" />
+    <link rel="stylesheet" href="/css/dropdownMenu.css" />
+    <meta name="keywords" content="miccall" />
+    
+    	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	 
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css" />
+    </noscript>
+    <style type="text/css">
+        body:before {
+          content: ' ';
+          position: fixed;
+          top: 0;
+          background: url('/img/bg.jpg') center 0 no-repeat;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-size: cover; 
+        }
+    </style>
+
+			    
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+<meta name="generator" content="Hexo 4.2.0"></head>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_coy.css" />
+<link rel="stylesheet" href="/css/typo.css" />
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">URIEL</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special" >
+            <ul class="menu links" >
+			<!-- Homepage  主页  --> 
+			<li >
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="category-link" href="/categories/Java/">Java</a></li><li><a class="category-link" href="/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/">大数据</a></li><li><a class="category-link" href="/categories/%E6%95%B0%E5%AD%A6/">数学</a></li><li><a class="category-link" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/">计算机组成原理</a>
+	                    </ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/about/" title="简历">
+		                简历
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/tag/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+                    
+                    <li>
+                        <a title="github" href="https://github.com/Chenshasan/Typora-Lotebook-of-LGL" target="_blank" rel="noopener">
+                            <i class="icon fa fa-github"></i>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a title="500px" href="http://500px.com" target="_blank" rel="noopener">
+                            <i class="icon fa fa-500px"></i>
+                        </a>
+                    </li>
+                    
+			</ul>
+</nav>
+
+        <div id="main" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url(https://github.com/miccall/MyTextures/blob/master/271043-106.jpg?raw=true);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >大数据项目笔记</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <h3 id="工程流程："><a href="#工程流程：" class="headerlink" title="工程流程："></a>工程流程：</h3><p>课题背景和目标——评估准则——认识数据——分析、预处理——特征工程——基于模型测试和优化——预期效果——记录模型和结果</p>
+<h3 id="认识数据和分析预处理："><a href="#认识数据和分析预处理：" class="headerlink" title="认识数据和分析预处理："></a>认识数据和分析预处理：</h3><h4 id="重复值、异常值处理："><a href="#重复值、异常值处理：" class="headerlink" title="重复值、异常值处理："></a>重复值、异常值处理：</h4><p>import pandas as pd</p>
+<p>import munpy as np</p>
+<p>np.nan——数据缺失</p>
+<p>缺失处理：df.dropna()(默认行删除)/df.dropna(axis=1,inplace=true)（将Nan行删除）</p>
+<p>填充处理：df.fillna(-1)/df.fillna(df.mean())/df.fillna(method=’pdf’)(前一个值对后一个值做填充)/df.fillna(method=’bfill’)(后一个值对前一个值做填充)/df.interpolate()（插值法填充？）</p>
+<p>删除重复行：x=x.drop_duplicates()</p>
+<h4 id="特征缩放："><a href="#特征缩放：" class="headerlink" title="特征缩放："></a>特征缩放：</h4><p>why特征缩放：平均所有的特征对于值的影响</p>
+<p>怎么做特征缩放：</p>
+<p>使用min max normalization方法</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.preprocessing <span class="keyword">import</span> MinMaxScaler</span><br><span class="line"></span><br><span class="line">mm=MinMaxScaler(feature_range=(<span class="number">0</span>,<span class="number">1</span>))</span><br><span class="line"></span><br><span class="line">data=mm.fit_transform(data)</span><br></pre></td></tr></table></figure>
+
+<p>均值缩放：</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line">data=</span><br><span class="line">df=pd.DataFrame(data)</span><br><span class="line">(df-np.mean(df))/(np.max(df)-np.min(df))</span><br></pre></td></tr></table></figure>
+
+<p>标准化缩放：</p>
+<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.preprocessing <span class="keyword">import</span> StandardScaler</span><br><span class="line">std=StandardScaler()</span><br><span class="line">data=</span><br><span class="line">data=std.fit_transform(data)</span><br><span class="line">data</span><br></pre></td></tr></table></figure>
+
+<h4 id="样本不均衡："><a href="#样本不均衡：" class="headerlink" title="样本不均衡："></a>样本不均衡：</h4><p>解决样本不均衡：</p>
+<ul>
+<li>增加样本中数量较少的类别的数量</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">(复制小样本数据)</span><br><span class="line"><span class="keyword">from</span> imblearn.over_sampling <span class="keyword">import</span> RandomOverSampler</span><br><span class="line">ros=RandomOverSample(random_state=<span class="number">0</span>)</span><br><span class="line">X_resampled,y_resampled=ros.fit_sample()X,y</span><br><span class="line"></span><br><span class="line">print(sorted(Counter(y_sampled).items()))</span><br><span class="line"></span><br><span class="line">(通过一定的规则生成新变量)</span><br><span class="line"><span class="keyword">from</span> imblearn.over_sampling <span class="keyword">import</span> SMOTE(通过少数类样本的特性生成新的样本), ADADYN</span><br><span class="line">X_resampled,y_resampled=SMOTE(kind=<span class="string">'boderline1'</span>).fit_sample(x,y)</span><br><span class="line"></span><br><span class="line">print(sorted(Counter(y_resampled).items()))</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>减少样本中数量较多的数量</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">(减少一些多数类)</span><br><span class="line"><span class="keyword">from</span> imblearn.under_sampling <span class="keyword">import</span> RandomUnderSampler</span><br><span class="line">ros=RandomUnderSample(random_state=<span class="number">0</span>)</span><br><span class="line">X_resampled,y_resampled=ros.fit_sample()X,y</span><br><span class="line"></span><br><span class="line">print(sorted(Counter(y_sampled).items()))</span><br><span class="line"></span><br><span class="line">(根据新的样本生成一些样本替换多数样本)</span><br><span class="line"><span class="keyword">from</span> imblearn.under_sampling <span class="keyword">import</span> ClusterCentroids</span><br><span class="line">cc=ClusterCentroids(random_state=<span class="number">0</span>)</span><br><span class="line">X_resampled,y_resampled=cc.fit_sample(x,y)</span><br><span class="line"></span><br><span class="line">print(sorted(Counter(y_sampled).items()))</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>设置权重（通常设置成与样本量成反比）</li>
+<li>集成方法（分成多组样本进行训练，每组样本包含所有少数类样本和多数类样本的抽样）</li>
+</ul>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> imblearn.datasets <span class="keyword">import</span> make_imbalance</span><br><span class="line">ratio=&#123;&#125;</span><br><span class="line">X.resampled,y_resampled=make_imbalance(X,y,ratio=ratio)</span><br><span class="line">print(sorted(Counter(y_sampled).items()))</span><br><span class="line">(按ratio的比例抽取)</span><br></pre></td></tr></table></figure>
+
+<p>生成不平衡的样本</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.datasets <span class="keyword">import</span> make_classificaiton</span><br><span class="line">form collections <span class="keyword">import</span> Counter</span><br><span class="line">x,y=make_classification(...)</span><br><span class="line">Counter(y)</span><br></pre></td></tr></table></figure>
+
+<h4 id="识别异常值："><a href="#识别异常值：" class="headerlink" title="识别异常值："></a>识别异常值：</h4><ul>
+<li>简单的统计分析</li>
+<li>3 原则（正态分布：距离平均值3 之外的概率不超过0.003）</li>
+</ul>
+<p><img src="/2020/01/11/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/image-20191027192501579.png" alt="image-20191027192501579"></p>
+<ul>
+<li>箱形图（大于或小于箱型图上界或者下届的数值为异常值）</li>
+</ul>
+<p><img src="/2020/01/11/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/image-20191027192437804.png" alt="image-20191027192437804"></p>
+<ul>
+<li>聚类分析（基于密度的聚类方法，用于离群点检测）</li>
+</ul>
+<p><img src="/2020/01/11/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/image-20191027192448016.png" alt="image-20191027192448016"></p>
+<h3 id="特征工程"><a href="#特征工程" class="headerlink" title="特征工程"></a>特征工程</h3><h4 id="特征处理："><a href="#特征处理：" class="headerlink" title="特征处理："></a>特征处理：</h4><h5 id="特征类型："><a href="#特征类型：" class="headerlink" title="特征类型："></a>特征类型：</h5><p>数值型（连续型和离散型），类别型（文本类型，枚举类型），时间型，文本类型，图形类型</p>
+<h5 id="数值类型处理："><a href="#数值类型处理：" class="headerlink" title="数值类型处理："></a>数值类型处理：</h5><h6 id="连续变量的离散化——分箱"><a href="#连续变量的离散化——分箱" class="headerlink" title="连续变量的离散化——分箱"></a>连续变量的离散化——分箱</h6><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">bin_range=</span><br><span class="line">bin_names=</span><br><span class="line">df[]=pd.cut(np.array(df[<span class="string">'Age'</span>],bins=bin_ranges))</span><br><span class="line">df[]=pd.cut(np.array(df[<span class="string">'Age'</span>]),bins=bin_range,lable=bin_names)</span><br></pre></td></tr></table></figure>
+
+<h6 id="连续变量的离散化——自适应binning"><a href="#连续变量的离散化——自适应binning" class="headerlink" title="连续变量的离散化——自适应binning"></a>连续变量的离散化——自适应binning</h6><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#基于四分位数的二进制方案</span></span><br><span class="line">quantile_list=[<span class="number">0</span>,<span class="number">.25</span>,<span class="number">.5</span>,<span class="number">.75</span>,<span class="number">1</span>]</span><br><span class="line">quantiles=dt[<span class="string">'income'</span>].quantile(quantile_list)</span><br><span class="line"></span><br><span class="line"><span class="comment">#可视化这些分位数</span></span><br><span class="line">fig,ax=plt.subplots()</span><br><span class="line">df[<span class="string">'income'</span>].hist(bins=<span class="number">30</span>,color=<span class="string">'#A9C5D3'</span>,</span><br><span class="line">                  edgecolor=<span class="string">'black'</span>,grid=<span class="literal">False</span>)</span><br><span class="line"><span class="keyword">for</span> quantile <span class="keyword">in</span> quantiles:</span><br><span class="line">    qvl=plt.axvline(quantile,color=<span class="string">'r'</span>)</span><br></pre></td></tr></table></figure>
+
+<h5 id="类别特征处理："><a href="#类别特征处理：" class="headerlink" title="类别特征处理："></a>类别特征处理：</h5><h6 id="LabelEncoder"><a href="#LabelEncoder" class="headerlink" title="LabelEncoder:"></a>LabelEncoder:</h6><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#对不连续的数字或者文本进行编号</span></span><br><span class="line"><span class="keyword">from</span> sklearn.preprocessing <span class="keyword">import</span> LabelEncoder</span><br><span class="line">x_data=pd.DataFrame()</span><br><span class="line">x_data[<span class="string">'gender'</span>]=np.array[<span class="string">'male'</span>,<span class="string">'famale'</span>,<span class="string">'male'</span>,<span class="string">'male'</span>,<span class="string">'female'</span>]</span><br><span class="line"></span><br><span class="line">le=LableEncoder()</span><br><span class="line">le.fit([<span class="string">'male'</span>,<span class="string">'female'</span>])</span><br><span class="line">x_data[<span class="string">'gender_encode'</span>]=le.transform(x_data[<span class="string">'gender'</span>])</span><br></pre></td></tr></table></figure>
+
+<h6 id="one-hot："><a href="#one-hot：" class="headerlink" title="one-hot："></a>one-hot：</h6><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#将离散的特征取值扩展到欧式空间(距离的计算或者相似度的计算)</span></span><br><span class="line"><span class="keyword">from</span> sklearn <span class="keyword">import</span> preprocessng</span><br><span class="line">enc=preprocessing.OneHoteEncoder(categories=<span class="string">'auto'</span>)</span><br><span class="line">df=pd.DataFrame(...)</span><br><span class="line">enc.fit(df)</span><br><span class="line">array=enc.transform(...).toArray()</span><br></pre></td></tr></table></figure>
+
+<h5 id="时间特征的提取："><a href="#时间特征的提取：" class="headerlink" title="时间特征的提取："></a>时间特征的提取：</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> pandas <span class="keyword">import</span> to_datatime</span><br><span class="line">a=np.array([...])</span><br><span class="line">data=pd.DataFrame()</span><br><span class="line">data[<span class="string">'时间'</span>]=a</span><br><span class="line"></span><br><span class="line">data[<span class="string">'month'</span>]=data[<span class="string">'时间'</span>].apply(<span class="keyword">lambda</span> x:int(x.split(<span class="string">"-"</span>)[<span class="number">1</span>]))</span><br><span class="line">data[<span class="string">'day'</span>]=data[<span class="string">'时间'</span>].apply(<span class="keyword">lambda</span> x:int(x.split(<span class="string">"-"</span>)[<span class="number">2</span>]))</span><br></pre></td></tr></table></figure>
+
+<h4 id="特征构建："><a href="#特征构建：" class="headerlink" title="特征构建："></a>特征构建：</h4><ol>
+<li>把已有的特征进行组合转换，组合的方式（一元，二元，多元算子）可以由用户自行定义，也可以使用库中自带的函数</li>
+<li>根据业务分析创建特征</li>
+</ol>
+<h5 id="多项式："><a href="#多项式：" class="headerlink" title="多项式："></a>多项式：</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.preprocessing <span class="keyword">import</span> PolynomialFeatures</span><br><span class="line">df=pd.DataFrame(np.random.randint(<span class="number">1</span>,<span class="number">10</span>,<span class="number">16</span>),reshape(<span class="number">4</span>,<span class="number">4</span>))</span><br><span class="line"></span><br><span class="line">poly=PolynomialFeatures(degree=<span class="number">2</span>,interaction_only=<span class="literal">True</span>)</span><br><span class="line">data=poly.fit_transform(df)</span><br><span class="line">pd.DataFrame(data)</span><br></pre></td></tr></table></figure>
+
+<h4 id="特征选择"><a href="#特征选择" class="headerlink" title="特征选择"></a>特征选择</h4><ol>
+<li>过滤式：根据特征的方差或者相关系数对特征进行重要程度排序，方差越大，与目标变量相关系数越高，则特征越重要</li>
+<li>包裹式：每次选择一个效果最好的特征/每次删除一个效果最差的特征</li>
+<li>嵌入式：<ol>
+<li>lasso回归，通过L1正则化，对特征进行选择</li>
+<li>GBDT，Xgboost，在不同数据抽样，不同样本抽样所得到的诸多蛋壳决策树中，重要的特征会有更高的概率出现在树中</li>
+</ol>
+</li>
+</ol>
+<h5 id="SelectKBest运用："><a href="#SelectKBest运用：" class="headerlink" title="SelectKBest运用："></a>SelectKBest运用：</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.datasets <span class="keyword">import</span> load_digits</span><br><span class="line"></span><br><span class="line">form sklearn.features_selection <span class="keyword">import</span> SclectKBest,chi2</span><br><span class="line">x,y=load_digits(return_x_y=<span class="literal">True</span>)</span><br><span class="line">x.shape</span><br><span class="line">x_new=SelectKBest(chi2,k=<span class="number">20</span>)fit_transform(x,y)</span><br><span class="line">x_new.shape</span><br><span class="line"><span class="comment">#shape是被优化过的（进行特征选择过的）</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="项目实际应用：广告点击率预测"><a href="#项目实际应用：广告点击率预测" class="headerlink" title="项目实际应用：广告点击率预测"></a>项目实际应用：广告点击率预测</h2><p>特征工程：70%工作量</p>
+<p>模型优化：sklearn和python调参优化</p>
+<p>字段介绍：基本类型+媒体信息+用户信息</p>
+<p>评估准则：对数损失</p>
+<ul>
+<li>导入数据集</li>
+<li>训练集作出数据的基本处理方式，然后通过测试集判断结果</li>
+<li>pd.read_csv（通过特定分隔符读取文档文件）</li>
+</ul>
+<h3 id="了解数据"><a href="#了解数据" class="headerlink" title="了解数据"></a>了解数据</h3><p>（直接划出每个字段不同特征值的平均点击率，每一个字段不同特征值的样本分布）——</p>
+<p>基本逻辑大致为先通过数据的可视化了解数据的特征，然后选取相应的特征方式处理数据</p>
+<ul>
+<li><p>特征分布为1，则没有处理的必要/如果样本量比较不均衡，使用分组将样本量比较少的特征组合成一个特征</p>
+</li>
+<li><p>画出所有特征——python画图的基本代码</p>
+</li>
+<li><p>数据的可视化分析：</p>
+<ul>
+<li><p><strong>城市/省份</strong></p>
+<p>虽然有些地区的总的样本量较低，但平均点击率还是接近于平均水平；同时，虽然有些城市的总样本量很高，但平均点击率并不够高。有些地区的点击率确实远低于另外一些地区。 </p>
+</li>
+<li><p><strong>运营商信息</strong></p>
+<ol>
+<li>运营商的数据比较有趣，有一类运营商的点击率和样本量都比较低！这类比较显著的差异，都可以作为特征。</li>
+<li>nnt 是联网类型，同样可以看出，有些联网类型的样本量特别多，但平均点击率并不突出；同时注意到，有个类别的联网类型，样本量和点击率都非常低！比如类别 5。</li>
+</ol>
+</li>
+<li><p><strong>设备信息</strong>（pandas中apply和lambda表达式进行处理）</p>
+<ol>
+<li>这三个字段都是关于机型的信息，model与make都没有脱敏，可以看到make字段中有HuaWei、Xiaomi、OPPO、Apple 等，而 model 则是更加详细的机型信息，比如 HUAWEI-CAZ-AL10、Redmi Note 4、OPPO+R11s等，它们的种类特别多。简单分析，机型类信息有一定的价值，但如此多的种类，可能会导致有些机型的样本数量非常小，也就不适合拿来做特征。</li>
+<li>事实上，model 就是 make 信息的细化，我们可以粗略使用 make 的信息，然而我们发现，make 有许多不同的种类，使用 train_data[‘make’].unique()命令统计一下，发现有 3000多种不同的品牌，这个数值有点太大了。深入查看这个字段的内容，会发现里面有很多其实属于同一个品牌，比如会有“iPhone8,1” 、 “iPhone7,2”这样的字段，以及“vivo Y31A”、“vivo Xplay3S”这样的字段，所以，make 字段最好是不要直接使用，需要将同一品牌的不同机型进行合并。 在此，为了对 make 有更好的理解，我们将同一品牌的描述进行合并，比如“iphone5”、“iphone6”“77iphone8plus”都会被重命名为“apple”。</li>
+</ol>
+</li>
+<li><p><strong>操作系统信息</strong></p>
+<p>‘os’,”os_name”,”osv”这三个字段的关系非常紧密。事实上，从图中也可以看出，os 和 os_name 其实是一致的，考虑其中一 个即可；而 osv，可暂时不予考虑，因为它的种类比较多，且不少操作系统版本的总样本量也比较少 </p>
+</li>
+<li><p>广告主信息</p>
+<ol>
+<li>不同的广告主是否有不同的吸引力。从上图中可以看出，有些广告主的吸引力确实比较强，而有些广告主，既没有吸引较多的广告量，也没有客观的点击率。</li>
+<li>再看广告主所在的行业(advert_industry_inner)，也明显是一个较为显著的特征。此处我们需要注意下，当我们查看这个字段时，发现它是两组数字的组合，如 102400_102401、101900_101902，故可以考虑在创建特征的额时候，对它进行拆分。</li>
+</ol>
+</li>
+<li><p>时间信息（提取周期性的东西，使用apply和lambda）</p>
+</li>
+</ul>
+</li>
+<li><p>广告创意内容</p>
+<p><img src="/2020/01/11/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/image-20191121134850317.png" alt="image-20191121134850317"></p>
+<ol>
+<li>广告创意的样式和广告创意的类型，不同的创意类型也都有较大的差异。尤其是 creative_type 中紫色的类型，差异与其它类型非常明显。</li>
+<li>观察广告创意的属性，包括是否有 deeplink、是否是落地页跳转 is_jump、是否是落地页下载is_download、是否为 js 素材和是否为语音广告 is_voicead。</li>
+<li>广告创意还有长度与宽度的差别，从字面上看，我们应该用散点图来观察它们的情况，但事实上，设计师们在设计宣传页的时候，为了更好地适配手机设备，通常会有一些固定的尺寸；如图，我们发现，在某些尺寸下，确实得到的点击率会比较高。 </li>
+</ol>
+<p><strong>结论</strong>：最后两个属性（js 和 voicead）在训练集中都只有一个种类，因此也就失去了价值(可以去掉)，其它5个的分布情况如图，都有非常显著的差异，因此也应该是个不错的特征。</p>
+</li>
+<li><p>媒体信息</p>
+<p>有明显的分隔符：尝试对于分隔符进行分割，然后处理信息</p>
+<p>通过原始特征生成新的特征</p>
+<p><img src="/2020/01/11/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/image-20191121135002620.png" alt="image-20191121135002620"></p>
+<ol>
+<li><p>app_apid 在训练集中只有一个类别值及所有广告都是False的(可以考虑去掉特征)</p>
+</li>
+<li><p>“app_id”,”inner_slot_id”需要进一步观察</p>
+</li>
+<li><p>媒体的广告位，广告位的类别特别多，且大多广告位的数量都非常稀少，可以看出这个不太具有参考性。然而，当我们查看这个字段的内容，会发现它有一定的特点，如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">iqy_1000000000381-1-15-15、</span><br><span class="line">iqy_1000000000381-1-15-30</span><br><span class="line">xf_275C061483984E075832A4373BDDF27B</span><br></pre></td></tr></table></figure>
+
+<p>前面的那个内容是有很多规律可循的，因此，我们可以尝试做一些处理，取出“_”前的那些字母即可(不以具体广告位计算,只计算具体渠道)</p>
+</li>
+<li><p>可以考虑删除原始特征媒体广告位(inner_slot_id),使用inner_slot_id1 </p>
+</li>
+</ol>
+</li>
+<li><p>用户信息</p>
+<p>不需要进行特殊处理</p>
+<p>逗号分割，拆分开逗号，用其他的编码方式进行编码，然后保存并代入训练</p>
+</li>
+</ul>
+<h3 id="数据预处理"><a href="#数据预处理" class="headerlink" title="数据预处理"></a>数据预处理</h3><ul>
+<li>缺失值处理</li>
+<li>异常值处理</li>
+<li>重复值处理</li>
+<li>离散字段处理</li>
+</ul>
+<p>进行存储和删除后，按照训练集的行列的维度，得到测试集和训练集的样本数（可通过索引值获得相应的数据）</p>
+<p>得到特征矩阵，针对特征矩阵做特征工程</p>
+<h3 id="特征方程"><a href="#特征方程" class="headerlink" title="特征方程"></a>特征方程</h3><ol>
+<li>创建特征</li>
+<li>根据广告行业（根据下划线划分特征）</li>
+<li>对广告位的Id进行重构，取出前面的特征值进行重新整合</li>
+<li>通过labelEncoder方式对特征进行编码</li>
+<li>对数值特征进行标准化</li>
+<li>针对用户特征（文本数据），通过持平矩阵的方式实现特征转换</li>
+<li>特征选择：selectKBest</li>
+</ol>
+<h3 id="模型"><a href="#模型" class="headerlink" title="模型"></a>模型</h3><h4 id="创建模型："><a href="#创建模型：" class="headerlink" title="创建模型："></a>创建模型：</h4><ol>
+<li>逻辑回归</li>
+<li>gbdt</li>
+<li>xgb</li>
+<li>lgbm</li>
+</ol>
+<h4 id="模型调用："><a href="#模型调用：" class="headerlink" title="模型调用："></a>模型调用：</h4><ul>
+<li>封装模型调参的方法（将模型所有可能的参数进行枚举，找到最优的模型）</li>
+<li>获得模型组合的最优参数</li>
+<li>常用参数：GridSearchCV/RandomSearchCV</li>
+<li>根据模型默认的参数来判断最优的模型</li>
+<li>通过模型做交叉验证</li>
+<li>根据模型做数据的预测</li>
+</ul>
+<h5 id="GridSearchCV"><a href="#GridSearchCV" class="headerlink" title="GridSearchCV:"></a>GridSearchCV:</h5><p>自动调参，输入参数，给出最优化的结果和参数，适合于小数据集</p>
+<p>常用参数：</p>
+<p><strong>estimator</strong>：所使用的分类器，如estimator=RandomForestClassifier(min_samples_split=100,min_samples_leaf=20,max_depth=8,max_features=’sqrt’,random_state=10), 并且传入除需要确定最佳的参数之外的其他参数。每一个分类器都需要一个scoring参数，或者score方法。<br><strong>param_grid</strong>：值为字典或者列表，即需要最优化的参数的取值，param_grid =param_test1，param_test1 = {‘n_estimators’:range(10,71,10)}。<br><strong>scoring</strong> :准确度评价标准，默认None,这时需要使用score函数；或者如scoring=’roc_auc’，根据所选模型不同，评价准则不同。字符串（函数名），或是可调用对象，需要其函数签名形如：scorer(estimator, X, y)；如果是None，则使用estimator的误差估计函数。</p>
+<p><strong>cv</strong> :交叉验证参数，默认None，使用三折交叉验证。指定fold数量，默认为3，也可以是yield训练/测试数据的生成器。<br><strong>refit</strong> :默认为True,程序将会以交叉验证训练集得到的最佳参数，重新对所有可用的训练集与开发集进行，作为最终用于性能评估的最佳模型参数。即在搜索参数结束后，用最佳参数结果再次fit一遍全部数据集。<br><strong>iid</strong>:默认True,为True时，默认为各个样本fold概率分布一致，误差估计为所有样本之和，而非各个fold的平均。<br><strong>verbose</strong>：日志冗长度，int：冗长度，0：不输出训练过程，1：偶尔输出，&gt;1：对每个子模型都输出。<br>n_jobs: 并行数，int：个数,-1：跟CPU核数一致, 1:默认值。<br><strong>pre_dispatch</strong>：指定总共分发的并行任务数。当n_jobs大于1时，数据将在每个运行点进行复制，这可能导致OOM，而设置pre_dispatch参数，则可以预先划分总共的job数量，使数据最多被复制pre_dispatch次</p>
+<p>常用方法：</p>
+<p>grid.fit()：运行网格搜索<br>grid_scores_ ：给出不同参数情况下的评价结果<br>best_params_ ：描述了已取得最佳结果的参数的组合<br>best_score_：成员提供优化过程期间观察到的最好的评分 </p>
+<p><img src="/2020/01/11/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/image-20191121150643464.png" alt="image-20191121150643464"></p>
+<p><img src="/2020/01/11/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/image-20191121153306648.png" alt="image-20191121153306648"></p>
+<p>不同的模型有常见的参数组合，组合后通过ModelOptimization返回最优参数，然后用Model_evaluation评估最优参数：</p>
+<p><img src="/2020/01/11/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/image-20191121153458992.png" alt="image-20191121153458992"></p>
+<p>最优模型参数进行代入，进行交叉验证（应该就是指的GridSearchCV）的训练，将模型评估的分数均值做输出</p>
+<h4 id="模型融合："><a href="#模型融合：" class="headerlink" title="模型融合："></a>模型融合：</h4><p>模型融合的基本思路为：将模型调参出来的最优参数代入四个模型中，然后融合四个模型即可</p>
+<p><img src="/2020/01/11/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/image-20191121153934407.png" alt="image-20191121153934407"></p>
+<h3 id="结果提交"><a href="#结果提交" class="headerlink" title="结果提交"></a>结果提交</h3><p><img src="/2020/01/11/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/image-20191121154012960.png" alt="image-20191121154012960"></p>
+<p><img src="/2020/01/11/%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/image-20191121154038952.png" alt="image-20191121154038952"></p>
+<p>把最终融合的结果提交，提交即为将最后生成的模型预测结果输出成csv文件</p>
+
+            </div>
+
+            <!-- Post Comments -->
+            
+
+        </div>
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener" style="border-bottom: none;">hexo</a></li>
+                <li>Design: <a href="http://miccall.tech " target="_blank" rel="noopener" style="border-bottom: none;">miccall</a></li>
+            </ul>
+            
+                <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+			
+        </div>
+    </div>
+</body>
+
+
+
+ 	
+</html>

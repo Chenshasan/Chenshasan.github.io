@@ -1,0 +1,667 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link rel="bookmark"  type="image/x-icon"  href="/img/logo_miccall.png"/>
+	<link rel="shortcut icon" href="/img/logo_miccall.png">
+	
+			    <title>
+    Hexo
+    </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="/css/mic_main.css" />
+    <link rel="stylesheet" href="/css/dropdownMenu.css" />
+    <meta name="keywords" content="miccall" />
+    
+    	<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	 
+    <noscript>
+        <link rel="stylesheet" href="/css/noscript.css" />
+    </noscript>
+    <style type="text/css">
+        body:before {
+          content: ' ';
+          position: fixed;
+          top: 0;
+          background: url('/img/bg.jpg') center 0 no-repeat;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-size: cover; 
+        }
+    </style>
+
+			    
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script async type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.scrollex.min.js"></script>
+    <script src="/js/jquery.scrolly.min.js"></script>
+    <script src="/js/skel.min.js"></script>
+    <script src="/js/util.js"></script>
+    <script src="/js/main.js"></script>
+	
+<meta name="generator" content="Hexo 4.2.0"></head>
+    
+		
+<!-- Layouts -->
+
+
+
+<!--  代码渲染  -->
+<link rel="stylesheet" href="/css/prism_coy.css" />
+<link rel="stylesheet" href="/css/typo.css" />
+<!-- 文章页 -->
+<body class="is-loading">
+    <!-- Wrapper 外包 s-->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro 头部显示 s -->
+        <!-- Intro 头部显示 e -->
+        <!-- Header 头部logo start -->
+        <header id="header">
+    <a href="/" class="logo">URIEL</a>
+</header>
+        <!-- Nav 导航条 start -->
+        <nav id="nav" class="special" >
+            <ul class="menu links" >
+			<!-- Homepage  主页  --> 
+			<li >
+	            <a href="/" rel="nofollow">主页</a>
+	        </li>
+			<!-- categories_name  分类   --> 
+	        
+	        <li class="active">
+	            <a href="#s1">分类</a>
+	                    <ul class="submenu">
+	                        <li>
+	                        <a class="category-link" href="/categories/Java/">Java</a></li><li><a class="category-link" href="/categories/%E5%A4%A7%E6%95%B0%E6%8D%AE/">大数据</a></li><li><a class="category-link" href="/categories/%E6%95%B0%E5%AD%A6/">数学</a></li><li><a class="category-link" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/">计算机组成原理</a>
+	                    </ul>
+	        </li>
+	        
+	        <!-- archives  归档   --> 
+	        
+	        
+		        <!-- Pages 自定义   -->
+		        
+		        <li>
+		            <a href="/about/" title="简历">
+		                简历
+		            </a>
+		        </li>
+		        
+		        <li>
+		            <a href="/tag/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
+
+
+            </ul>
+            <!-- icons 图标   -->
+			<ul class="icons">
+                    
+                    <li>
+                        <a title="github" href="https://github.com/Chenshasan/Typora-Lotebook-of-LGL" target="_blank" rel="noopener">
+                            <i class="icon fa fa-github"></i>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a title="500px" href="http://500px.com" target="_blank" rel="noopener">
+                            <i class="icon fa fa-500px"></i>
+                        </a>
+                    </li>
+                    
+			</ul>
+</nav>
+
+        <div id="main" >
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url(https://github.com/miccall/MyTextures/blob/master/271043-106.jpg?raw=true);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >计算机组成原理(2)</h2></a>
+            </div>
+            <!-- Post -->
+            <div class="typo" style="padding: 3rem;">
+                <h2 id="计算机组成原理（2）"><a href="#计算机组成原理（2）" class="headerlink" title="计算机组成原理（2）"></a>计算机组成原理（2）</h2><h2 id="BUS"><a href="#BUS" class="headerlink" title="BUS"></a>BUS</h2><h3 id="种类"><a href="#种类" class="headerlink" title="种类"></a>种类</h3><ol>
+<li><p>Chip inner bus</p>
+<p>芯片内部总线，连接cpu/alu等</p>
+</li>
+<li><p>system bus</p>
+</li>
+<li><p>communication bus</p>
+</li>
+</ol>
+<h3 id="组成："><a href="#组成：" class="headerlink" title="组成："></a>组成：</h3><ul>
+<li>control line:不同的控制线传不同的控制信号，在多个设备冲突时确定总线传输什么数据（时钟，总线请求，接收，中断请求等等）</li>
+<li>address line</li>
+<li>data line</li>
+</ul>
+<h3 id="仲裁器："><a href="#仲裁器：" class="headerlink" title="仲裁器："></a>仲裁器：</h3><h4 id="Daisy-chain"><a href="#Daisy-chain" class="headerlink" title="Daisy chain"></a>Daisy chain</h4><ul>
+<li>从高优先级到低优先级使用总线，由总线先对高优先级的发出询问，当高优先级发出不需要使用的信号时，总线再询问低优先级的设备</li>
+<li>总线在被占用时不可被其他的东西所占用</li>
+</ul>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191126143123342.png" alt="image-20191126143123342"></p>
+<p>优势：</p>
+<ul>
+<li>容易实现优先级的高低</li>
+<li>能够比较容易加入新的设备</li>
+</ul>
+<p>缺点</p>
+<ul>
+<li>若在链式结构中，若有一个设备被破坏，则后续所有的其他设备都无法使用</li>
+<li>获得总线许可时间慢，大量时间消耗在总线分布上</li>
+</ul>
+<h4 id="Query-by-a-counter"><a href="#Query-by-a-counter" class="headerlink" title="Query by a counter"></a>Query by a counter</h4><p>仲裁器在发出许可要求的过程中（许可要求通过优先级的方法实现），持续性向前进行，当需要总线的设备发出许可时，则使用总线</p>
+<p>（类似于导员报数然后学生接收报数，报数的策略可以不尽相同）</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191126143646598.png" alt="image-20191126143646598"></p>
+<h4 id="Independently-request"><a href="#Independently-request" class="headerlink" title="Independently request"></a>Independently request</h4><p>设备需要使用总线时主动发出请求，仲裁器将发出请求的所有设备按照优先级排序，然后让最高优先级的设备使用总线</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191126144521635.png" alt="image-20191126144521635"></p>
+<h4 id="Self-selection"><a href="#Self-selection" class="headerlink" title="Self selection"></a>Self selection</h4><p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191126144550443.png" alt="image-20191126144550443"></p>
+<ul>
+<li>总线可以被设置为忙，因此和所有的设备之间都是为双向箭头</li>
+<li>设备3的优先级最高，可以直接使用BR3，而剩余的设备如设备2在使用时，BR3有可能被设备3所使用的，因此需要返回信号</li>
+</ul>
+<h4 id="Collision-detection"><a href="#Collision-detection" class="headerlink" title="Collision detection"></a>Collision detection</h4><ul>
+<li>当两个设备同时发现总线不忙，且总线不被占用时，同时使用总线，发生冲突，冲突时两方均不使用总线</li>
+<li>先发出请求的设备使用总线</li>
+</ul>
+<h3 id="Timing计时："><a href="#Timing计时：" class="headerlink" title="Timing计时："></a>Timing计时：</h3><h4 id="同步"><a href="#同步" class="headerlink" title="同步"></a>同步</h4><p>存在一个外部时钟，同步时，所有的设备都使用相同的时钟周期，eg:约定好一个时钟周期发信息，再过两个时钟周期取消息</p>
+<p>缺点：</p>
+<ul>
+<li>总线较长时，时钟周期无法对准</li>
+<li>所花的总时间取决于所有总线中最慢的设备</li>
+</ul>
+<h4 id="异步"><a href="#异步" class="headerlink" title="异步"></a>异步</h4><p>两个信号，两个撤回</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191126151053072.png" alt="image-20191126151053072"></p>
+<ul>
+<li>发送ready信息</li>
+<li>ack发送收到信息，当收到信息被收到时，再撤掉ready信息</li>
+<li>ready信息被撤掉后，收到信息才被撤掉</li>
+</ul>
+<p>（一共发了两次信号，“准备好了”和“收到了”信号，然后有两个信号的撤回）</p>
+<p>（握手的重点在于一件事发生在另一件事之前）</p>
+<p>handshaking example</p>
+<p>CPU传输需要数据请求给内存，内存传输数据给CPU</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191126152001245.png" alt="image-20191126152001245"></p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20200103164037058.png" alt="image-20200103164037058"></p>
+<h4 id="半同步"><a href="#半同步" class="headerlink" title="半同步"></a>半同步</h4><p>为了减少噪声对异步传输的影响，在异步过程中，使用时钟周期，规定某个信号的发起必须在某个时钟周期之前</p>
+<h4 id="分割总线数"><a href="#分割总线数" class="headerlink" title="分割总线数"></a>分割总线数</h4><ul>
+<li>总线传输地址给设备，在设备准备数据的过程中释放总线，使得总线进行其他设备的数据传输</li>
+<li>当数据准备好之后再发一次请求，使用总线</li>
+<li>增加了总线的传输效率，但是降低了每个设备的传输效率以及增加了复杂度</li>
+</ul>
+<p><strong>概念</strong>：</p>
+<p>总线带宽：瞬时最大传输率</p>
+<p>数据传输率：实际情况下的数据传输率</p>
+<h3 id="改善："><a href="#改善：" class="headerlink" title="改善："></a>改善：</h3><h4 id="增加总线带宽："><a href="#增加总线带宽：" class="headerlink" title="增加总线带宽："></a>增加总线带宽：</h4><ul>
+<li>增加时钟频率</li>
+<li>增加总线宽度</li>
+<li>分开数据和地址线</li>
+</ul>
+<h4 id="增加数据传输率："><a href="#增加数据传输率：" class="headerlink" title="增加数据传输率："></a>增加数据传输率：</h4><ul>
+<li>降低准备时间</li>
+<li>将地址与数据分成两条线，一起传输</li>
+</ul>
+<h3 id="总线层次结构"><a href="#总线层次结构" class="headerlink" title="总线层次结构"></a>总线层次结构</h3><p>在cpu和主存之间增加一条总线——双总线结构</p>
+<h4 id="single-bus"><a href="#single-bus" class="headerlink" title="single bus"></a>single bus</h4><p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191203144656678.png" alt="image-20191203144656678"></p>
+<h4 id="double-bus"><a href="#double-bus" class="headerlink" title="double bus"></a>double bus</h4><p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191203144745783.png" alt="image-20191203144745783"></p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191203144914060.png" alt="image-20191203144914060"></p>
+<h4 id="multiple-bus-hierarchy"><a href="#multiple-bus-hierarchy" class="headerlink" title="multiple bus hierarchy"></a>multiple bus hierarchy</h4><p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191203145032976.png" alt="image-20191203145032976"></p>
+<h2 id="instruction-sets"><a href="#instruction-sets" class="headerlink" title="instruction sets"></a>instruction sets</h2><h3 id="指令"><a href="#指令" class="headerlink" title="指令"></a>指令</h3><ul>
+<li>操作码（指令执行的内容）+操作数（要操作的对象）</li>
+<li>多周期实现方案：<ul>
+<li>取指令</li>
+<li>译码/取寄存器</li>
+<li>执行/有效地址/分支</li>
+<li>访问内存</li>
+<li>储存结果</li>
+</ul>
+</li>
+</ul>
+<h4 id="正常指令周期"><a href="#正常指令周期" class="headerlink" title="正常指令周期"></a>正常指令周期</h4><p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191203150729025.png" alt="image-20191203150729025"></p>
+<h4 id="中断处理"><a href="#中断处理" class="headerlink" title="中断处理"></a>中断处理</h4><p>在每次指令执行完之后，先check是否有中断请求（如果有就处理中断），再来执行下一条指令</p>
+<h4 id="指令要素"><a href="#指令要素" class="headerlink" title="指令要素"></a>指令要素</h4><ul>
+<li>操作码</li>
+<li>源操作</li>
+<li>操作结果</li>
+<li>下一条指令</li>
+</ul>
+<h3 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h3><h4 id="Transfer-of-control"><a href="#Transfer-of-control" class="headerlink" title="Transfer of control"></a>Transfer of control</h4><ul>
+<li>分支</li>
+<li>跳过</li>
+<li>回调</li>
+</ul>
+<h5 id="底层实现："><a href="#底层实现：" class="headerlink" title="底层实现："></a>底层实现：</h5><ul>
+<li><p>register：改变pc的位置（不能实现多层调用）</p>
+</li>
+<li><p>start of called procedure：将每一个调用的PC信息写在一个程序的最开始部分（不能实现递归，因为重复调用同一个程序的时候其最开始的PC信息会被覆盖）</p>
+</li>
+<li><p>使用栈（目前使用的最佳方式）</p>
+</li>
+</ul>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191203151900127.png" alt="image-20191203151900127"></p>
+<h3 id="操作数"><a href="#操作数" class="headerlink" title="操作数"></a>操作数</h3><p>类型有</p>
+<ul>
+<li>地址</li>
+<li>数字</li>
+<li>逻辑数据</li>
+<li>字符</li>
+</ul>
+<h4 id="数字"><a href="#数字" class="headerlink" title="数字"></a>数字</h4><p>浮点数、整数等</p>
+<p>受计算机的储存大小影响：</p>
+<ul>
+<li>数值的幅值有限</li>
+<li>浮点数情况下的精度有限</li>
+</ul>
+<h4 id="逻辑数据"><a href="#逻辑数据" class="headerlink" title="逻辑数据"></a>逻辑数据</h4><p>一般情况下我们将计算机的数据作为数据单元处理，如一个字符，整数之类，当数据作为‘0’、‘1’处理，即作为位处理时，即为逻辑单元</p>
+<h4 id="Address"><a href="#Address" class="headerlink" title="Address"></a>Address</h4><p>在对地址处理时要注意到指令中需要使用的地址，一般为双操作数</p>
+<h5 id="需要使用的地址"><a href="#需要使用的地址" class="headerlink" title="需要使用的地址"></a>需要使用的地址</h5><ul>
+<li>两个源地址</li>
+<li>结果存储地址</li>
+<li>下一条指令的地址</li>
+</ul>
+<h5 id="地址的应用方式"><a href="#地址的应用方式" class="headerlink" title="地址的应用方式"></a><strong>地址的应用方式</strong></h5><p>可修改为三地址、两地址和单地址情况：</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191203152712680.png" alt="image-20191203152712680"></p>
+<p>能够使访问的时间变短/但在做同一做事情时，做的事情变多</p>
+<p>（适合CPU速度变快，但内存速度慢，取数据不方便时）</p>
+<h4 id="Big-endian-ordering-and-little-endian-ordering"><a href="#Big-endian-ordering-and-little-endian-ordering" class="headerlink" title="Big endian ordering and little endian ordering"></a>Big endian ordering and little endian ordering</h4><p>大端小端法（是指数据在地址中的储存方法）</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20200103170035018.png" alt="image-20200103170035018"></p>
+<h3 id="寻址模式"><a href="#寻址模式" class="headerlink" title="寻址模式"></a>寻址模式</h3><h4 id="立即寻址"><a href="#立即寻址" class="headerlink" title="立即寻址"></a>立即寻址</h4><p>在指令中的立即数即为需要使用的数据</p>
+<ul>
+<li>获得操作数最快</li>
+<li>操作数本身数值的范围会受到指令长度的限制</li>
+</ul>
+<h4 id="直接寻址"><a href="#直接寻址" class="headerlink" title="直接寻址"></a>直接寻址</h4><p>指令中的立即数表示了一个地址，该地址中储存的为需要使用的数据</p>
+<ul>
+<li>可以访问到比较长的数据</li>
+<li>同时能放置的个数比较有效，根据指令中的地址段的长度决定</li>
+</ul>
+<img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/image-20191203154030402.png" alt="image-20191203154030402" style="zoom:50%;">
+
+<h4 id="间接寻址"><a href="#间接寻址" class="headerlink" title="间接寻址"></a>间接寻址</h4><ul>
+<li>指令中的立即数表示一个地址，该地址中的内容取出作为一个地址</li>
+<li>再根据取出的地址在内存中进行访问，得到数据</li>
+<li>可以访问大量的数据，但需要两次转换才能拿出数据</li>
+</ul>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/image-20191203154119429.png" alt="image-20191203154119429" style="zoom:50%;"><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191203154346732.png" alt="image-20191203154346732"></p>
+<h4 id="变址寻址"><a href="#变址寻址" class="headerlink" title="变址寻址"></a>变址寻址</h4><p>源寄存器中有个值，将立即数与源寄存器值相加即为最终数据的地址</p>
+<h4 id="寄存器寻址"><a href="#寄存器寻址" class="headerlink" title="寄存器寻址"></a>寄存器寻址</h4><p>指令中的数表示一个寄存器位，寄存器中有需要的数据</p>
+<p>寄存器存储，但代价较高</p>
+<img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/image-20191203154346732.png" alt="image-20191203154346732" style="zoom:50%;">
+
+<h4 id="寄存器间接寻址"><a href="#寄存器间接寻址" class="headerlink" title="寄存器间接寻址"></a>寄存器间接寻址</h4><p>立即数表示寄存器的标号，寄存器中有一个地址，在内存中访问该地址得到需要的数据</p>
+<h4 id="偏移寻址"><a href="#偏移寻址" class="headerlink" title="偏移寻址"></a>偏移寻址</h4><ul>
+<li>通知PC离需要的数据距离PC有多远，即通知偏移量，到该地址即能取到数据</li>
+<li>程序执行有局部性，偏移量比较小，能节省指令空间</li>
+</ul>
+<h4 id="基址寻址"><a href="#基址寻址" class="headerlink" title="基址寻址"></a>基址寻址</h4><ul>
+<li>偏移量是基于程序最开始的基址决定（基址固定）</li>
+</ul>
+<img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/image-20191203154521767.png" alt="image-20191203154521767" style="zoom:50%;">
+
+<h4 id="汇总："><a href="#汇总：" class="headerlink" title="汇总："></a>汇总：</h4><p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20200103171249084.png" alt="image-20200103171249084"></p>
+<h3 id="Instrution-set-design"><a href="#Instrution-set-design" class="headerlink" title="Instrution set design"></a>Instrution set design</h3><ul>
+<li>操作数不一定越多越好，根据需要设计</li>
+<li>需要支持怎样的操作种类</li>
+<li>指令的格式</li>
+</ul>
+<h3 id="Instruction-format"><a href="#Instruction-format" class="headerlink" title="Instruction format"></a>Instruction format</h3><h4 id="指令长度相同"><a href="#指令长度相同" class="headerlink" title="指令长度相同"></a>指令长度相同</h4><ul>
+<li>一个指令格式至少需要包含一个操作码，0或者1或者2操作数</li>
+<li>（方案一）如果一个指令集中操作码的种类为K<sub>2</sub>,则其总长度为log<sub>2</sub>k<sub>2</sub>向上取整+两倍操作数长度</li>
+<li>有多种指令格式时，不能有二义性</li>
+</ul>
+<h4 id="指令长度变化"><a href="#指令长度变化" class="headerlink" title="指令长度变化"></a>指令长度变化</h4><ul>
+<li>不定长时指令可能不完整</li>
+</ul>
+<h2 id="CPU-Structure-and-function"><a href="#CPU-Structure-and-function" class="headerlink" title="CPU Structure and function"></a>CPU Structure and function</h2><p>CPU处理器的结构：</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191205164337646.png" alt="image-20191205164337646"></p>
+<p>需要具备的功能为：</p>
+<ul>
+<li>取指令</li>
+<li>解释、译码</li>
+<li>取数据</li>
+<li>处理数据</li>
+<li>写数据</li>
+</ul>
+<h3 id="Register"><a href="#Register" class="headerlink" title="Register"></a>Register</h3><h4 id="user-visible-register"><a href="#user-visible-register" class="headerlink" title="user-visible register"></a>user-visible register</h4><p>允许机器语言或者汇编语言来使用的寄存器</p>
+<ul>
+<li>General purpose register通用寄存器</li>
+<li>data register</li>
+<li>address register（包括段指针、堆栈指针、变址寄存器）</li>
+</ul>
+<h5 id="设计方式"><a href="#设计方式" class="headerlink" title="设计方式"></a>设计方式</h5><ul>
+<li>寄存器较多时会指定该寄存器的指令位数会变多，较少时需要大量的访问存储，降低效率</li>
+<li>使用通用寄存器会增加灵活性，但是使用指定的寄存器如某指令的立即数制定储存在一个寄存器中能够节省指令位数</li>
+</ul>
+<h4 id="control-and-status-register"><a href="#control-and-status-register" class="headerlink" title="control and status register"></a>control and status register</h4><h5 id="种类-1"><a href="#种类-1" class="headerlink" title="种类"></a>种类</h5><h6 id="PC"><a href="#PC" class="headerlink" title="PC"></a>PC</h6><p>储存下一条指令的地址：program counter</p>
+<h6 id="IR"><a href="#IR" class="headerlink" title="IR"></a>IR</h6><p>下一条指令的短暂储存器：instruction register</p>
+<h6 id="MAR"><a href="#MAR" class="headerlink" title="MAR"></a>MAR</h6><p>memory address register储存地址</p>
+<h6 id="MBR"><a href="#MBR" class="headerlink" title="MBR"></a>MBR</h6><p>memory buffer register储存数据</p>
+<h6 id="PSW"><a href="#PSW" class="headerlink" title="PSW"></a>PSW</h6><p>program status word：程序状态寄存（寄存器的每一位有特定的含义：是否为0，是否溢出，是否相等…）</p>
+<h6 id="Others（常用位置的地址）"><a href="#Others（常用位置的地址）" class="headerlink" title="Others（常用位置的地址）"></a>Others（常用位置的地址）</h6><ul>
+<li>储存栈顶位置的寄存器</li>
+<li>页表位置的寄存器</li>
+</ul>
+<h5 id="设计方式-1"><a href="#设计方式-1" class="headerlink" title="设计方式"></a>设计方式</h5><ul>
+<li>操作系统的支持（如果操作系统需要，可以自主扩展寄存器组织）</li>
+<li>控制状态信息很多，内存开头和寄存器都储存相应信息，如何将相应的信息分配给内存和寄存器（寄存器越多，代价越高，肖略越高）</li>
+</ul>
+<h3 id="Indirect-cycle"><a href="#Indirect-cycle" class="headerlink" title="Indirect cycle"></a>Indirect cycle</h3><ul>
+<li>取址周期</li>
+<li>间指周期<ul>
+<li>对于非直接寻址，当取完地址以后，就与直接寻址相同</li>
+</ul>
+</li>
+<li>执行周期</li>
+<li>中断周期</li>
+</ul>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191205165730494.png" alt="image-20191205165730494"></p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191205165947358.png" alt="image-20191205165947358"></p>
+<h3 id="Data-flow"><a href="#Data-flow" class="headerlink" title="Data flow"></a>Data flow</h3><ul>
+<li>MAR的每一位对应到地址线上的一根线（即MAR可以认为就是地址线，不需要再传入传出）</li>
+<li>MBR的每一位对应数据线</li>
+<li>控制单元：给内存发控制信号（读请求，control bus中有多个线路，将读请求的线路设置为1即可），更新PC</li>
+</ul>
+<h4 id="fetch-cycle"><a href="#fetch-cycle" class="headerlink" title="fetch cycle:"></a>fetch cycle:</h4><ul>
+<li>PC中有地址，将该地址通过MAR传入地址总线中</li>
+<li>控制器请求一次内存读取，将读取的内容通过数据总线复制到MBR中，再传入IR中</li>
+<li>PC+1</li>
+</ul>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191205171243721.png" alt="image-20191205171243721"></p>
+<h4 id="indirect-cycle"><a href="#indirect-cycle" class="headerlink" title="indirect cycle"></a>indirect cycle</h4><p>将MAR中的地址内容传给内存，读取出内存中的值（保证MAR中为需要取的数据的地址）</p>
+<ul>
+<li>MAR中为A</li>
+<li>控制单元中为读请求</li>
+<li>MBR中为最终操作数的地址EA，再将EA给MAR</li>
+</ul>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191205172243873.png" alt="image-20191205172243873"></p>
+<h4 id="interrupt-cycle"><a href="#interrupt-cycle" class="headerlink" title="interrupt cycle"></a>interrupt cycle</h4><p>原PC中的内容被装入MBR，写入存储器当中，然后控制器将子程序的PC传入，同时将需要的地址传入MAR</p>
+<ul>
+<li>控制单元为写请求</li>
+<li>写的地址为控制单元给出，写的内容为PC，写完后更新PC</li>
+</ul>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191205172432186.png" alt="image-20191205172432186"></p>
+<h3 id="Instruction-pipelining"><a href="#Instruction-pipelining" class="headerlink" title="Instruction pipelining"></a>Instruction pipelining</h3><p>指令执行的流水线步骤，每一个部件固定做一件事，且保持高度运行状态</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191205173647760.png" alt="image-20191205173647760"></p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191205173709166.png" alt="image-20191205173709166"></p>
+<p>流水线问题在于：</p>
+<ul>
+<li><p>执行的时间不等（将步骤分细，使每个步骤的时间尽量相等——将指令分为6个步骤）</p>
+<p>对于6-9时间内，所有步骤都在进行，所花时间为同时进行的所有步骤中时间最长的</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191205174220576.png" alt="image-20191205174220576"></p>
+</li>
+<li><p>某个指令结束后，发现有中断，为了响应中断，需要其他的指令全都中断</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191205174337387.png" alt="image-20191205174337387"></p>
+</li>
+</ul>
+<h4 id="中断造成的时间损耗："><a href="#中断造成的时间损耗：" class="headerlink" title="中断造成的时间损耗："></a>中断造成的时间损耗：</h4><p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191205174711535.png" alt="image-20191205174711535"></p>
+<h4 id="加速比"><a href="#加速比" class="headerlink" title="加速比"></a>加速比</h4><p>k为流水线中切分的步骤数</p>
+<p>n为执行的指令数</p>
+<p>使用流水线与不使用流水线的时间比——加速比大于1：</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191205175127565.png" alt="image-20191205175127565"></p>
+<h4 id="Hazard"><a href="#Hazard" class="headerlink" title="Hazard"></a>Hazard</h4><p>在一些情况下，指令流水被堵塞，后面的指令不能正常进行</p>
+<h5 id="结构冒险："><a href="#结构冒险：" class="headerlink" title="结构冒险："></a>结构冒险：</h5><ul>
+<li>在同一时间使用同一个设备等，造成冲突</li>
+<li>解决方式可以为：使用多个不同的设备</li>
+</ul>
+<h5 id="数据依赖："><a href="#数据依赖：" class="headerlink" title="数据依赖："></a>数据依赖：</h5><p>指令需要的数据还未产生</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191210140613322.png" alt="image-20191210140613322"></p>
+<p>解决方式：</p>
+<ul>
+<li><p>在中间添加空指令</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191210140813169.png" alt="image-20191210140813169"></p>
+</li>
+<li><p>停止当前指令的进行，直到数据产生</p>
+</li>
+<li><p>庞路：当r<sub>1</sub>已经计算出来后，直接从ALU中作为其他ALU的输入</p>
+</li>
+</ul>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191210141035638.png" alt="image-20191210141035638"></p>
+<ul>
+<li><p>改变命令顺序</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191210141735039.png" alt="image-20191210141735039"></p>
+</li>
+</ul>
+<h5 id="控制冒险："><a href="#控制冒险：" class="headerlink" title="控制冒险："></a>控制冒险：</h5><p>branch/loop等指令会改变指令的执行顺序</p>
+<ul>
+<li><p>branch prediction</p>
+<p>预先猜测分支是否会进行</p>
+<ul>
+<li>会进行</li>
+<li>不会进行</li>
+<li>通过opcode进行预测</li>
+</ul>
+</li>
+<li><p>动态预测（状态机）</p>
+<img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/image-20191210142704562.png" alt="image-20191210142704562" style="zoom:50%;">
+
+<p>基本逻辑为：预测进行跳转，如果继续跳转，则进行重复跳转，如果不继续跳转，则再进行一次跳转，如果还是不继续跳转，则进入预测不跳转状态（有两种持续状态，两种持续状态之间有两种过渡状态）</p>
+</li>
+<li><p>动态预测（根据历史数据进行统计）</p>
+<img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/image-20191210143314200.png" alt="image-20191210143314200" style="zoom:50%;">
+
+</li>
+</ul>
+<h2 id="Control-Unit-Operation"><a href="#Control-Unit-Operation" class="headerlink" title="Control Unit Operation"></a>Control Unit Operation</h2><h3 id="Micro-Operations"><a href="#Micro-Operations" class="headerlink" title="Micro-Operations"></a>Micro-Operations</h3><p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191210144010837.png" alt="image-20191210144010837"></p>
+<h3 id="Instruction-cycle"><a href="#Instruction-cycle" class="headerlink" title="Instruction cycle"></a>Instruction cycle</h3><h4 id="Fetch-cycle"><a href="#Fetch-cycle" class="headerlink" title="Fetch cycle"></a>Fetch cycle</h4><p>t是运行中的时钟，要让t尽可能的少，且指令在同时进行时不会出问题</p>
+<p>上下两种运行方式都可以</p>
+<ul>
+<li>MAR的操作必须在MBR之前，使得内存中有相应地址来取出数据</li>
+<li>MBR的写操作必须在MBR的读操作之前</li>
+</ul>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191210144351303.png" alt="image-20191210144351303"></p>
+<h4 id="Indirect-cycle-1"><a href="#Indirect-cycle-1" class="headerlink" title="Indirect cycle"></a>Indirect cycle</h4><p>如果采取了inditrct形式的取址，则将IR中放入原IR的地址中所对应的内容</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191210145128544.png" alt="image-20191210145128544"></p>
+<h4 id="Interrupt-cycle"><a href="#Interrupt-cycle" class="headerlink" title="Interrupt cycle"></a>Interrupt cycle</h4><p>时间划分上，要注意先有MAR中的地址，才能有MBR和内存的内容传输</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191210150431140.png" alt="image-20191210150431140"></p>
+<h4 id="Execute-cycle"><a href="#Execute-cycle" class="headerlink" title="Execute cycle"></a>Execute cycle</h4><p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191210150940718.png" alt="image-20191210150940718"></p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191210150953565.png" alt="image-20191210150953565"></p>
+<h4 id="周期进行"><a href="#周期进行" class="headerlink" title="周期进行"></a>周期进行</h4><p>ICC控制</p>
+<p>通过设定一个两位的指令周期码</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191210151313356.png" alt="image-20191210151313356"></p>
+<p>基本逻辑为：</p>
+<ul>
+<li>先判断指令是否为间址，如果不是间址，直接跳到执行阶段，如果是，则进行间址阶段</li>
+<li>执行后判断是否有中断，如果有则进行中断，如果没有则再次循环</li>
+</ul>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191210151324558.png" alt="image-20191210151324558"></p>
+<h3 id="Function-requirement-of-processor-control"><a href="#Function-requirement-of-processor-control" class="headerlink" title="Function requirement of processor control"></a>Function requirement of processor control</h3><h4 id="基本元素"><a href="#基本元素" class="headerlink" title="基本元素"></a>基本元素</h4><p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191210151955279.png" alt="image-20191210151955279"></p>
+<h4 id="进行的微操作"><a href="#进行的微操作" class="headerlink" title="进行的微操作"></a>进行的微操作</h4><p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191210152021240.png" alt="image-20191210152021240"></p>
+<h3 id="Input-output-of-control-unit"><a href="#Input-output-of-control-unit" class="headerlink" title="Input/output of control unit"></a>Input/output of control unit</h3><p>控制器需要进行操作的基本内容为：</p>
+<ul>
+<li>排序：对于正在被执行的程序，CPU通过一系列操作调控微操作的顺序</li>
+<li>执行：完成每个微操作</li>
+</ul>
+<h4 id="控制器结构："><a href="#控制器结构：" class="headerlink" title="控制器结构："></a>控制器结构：</h4><p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191210152319111.png" alt="image-20191210152319111"></p>
+<h4 id="输入"><a href="#输入" class="headerlink" title="输入"></a>输入</h4><ul>
+<li>控制单元的返回控制信息：中断/异常等</li>
+<li>时钟</li>
+<li>指令寄存器</li>
+<li>ALU中此时的状态</li>
+</ul>
+<h4 id="输出"><a href="#输出" class="headerlink" title="输出"></a>输出</h4><ul>
+<li>控制ALU进行操作</li>
+<li>挪动数据</li>
+<li>对主存有控制信号</li>
+</ul>
+<h4 id="control-signal"><a href="#control-signal" class="headerlink" title="control signal"></a>control signal</h4><p>控制器在每一个时刻都控制所有的门的开关，因此需要在每个时钟都发出一个01串，0表示该门断开，1表示门合上（打开逻辑门即为允许内容传输）</p>
+<img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/image-20191210153604418.png" alt="image-20191210153604418" style="zoom:67%;">
+
+<h3 id="CPU-signal-implementation"><a href="#CPU-signal-implementation" class="headerlink" title="CPU signal implementation"></a>CPU signal implementation</h3><h4 id="hardwired-implementation"><a href="#hardwired-implementation" class="headerlink" title="hardwired implementation"></a>hardwired implementation</h4><p>所有的请求直接通过连线连到CPU上，CPU通过解码，产生控制信号</p>
+<ul>
+<li><p>标志位的每一位都是独立的</p>
+</li>
+<li><p>中断请求也是独立的</p>
+</li>
+<li><p>指令寄存器的操作码，时钟信号（是通过01串的组合形式来表示的，因此需要解码）</p>
+</li>
+<li><p>对于CPU的输入IR通过真值表直接解码，来控制CPU的输出</p>
+</li>
+<li><p>此时CPU的信号解码为将CPU使用解码的所有条件通过布尔函数表示出来，再将这些布尔函数并起来（这些解码的条件为门的开，因此不同的条件都需要使用时，通过并的逻辑来连接）</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191213143058124.png" alt="image-20191213143058124"></p>
+</li>
+</ul>
+<h4 id="microprogrammed-implementation"><a href="#microprogrammed-implementation" class="headerlink" title="microprogrammed implementation"></a><strong>microprogrammed</strong> <strong>implementation</strong></h4><ul>
+<li>将CPU所有需要执行的东西编成微程序</li>
+<li>基本思想为：将所有步骤的控制信号记录下来，按照时钟信号往外发即可，对于如加法、减法等不相同的指令，也记录下来，然后判断是什么指令，执行相应指令对应的信号</li>
+</ul>
+<p>基本执行方式如图：</p>
+<img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/image-20191213144005116.png" alt="image-20191213144005116" style="zoom: 50%;">
+
+<ul>
+<li><p>对于每一个不同的操作，记录下不同的内容，然后在每个cycle最后判断进入哪一个部分的内容</p>
+</li>
+<li><p>控制线中有一位的是否跳转的信号，如果为0，则不跳转，继续执行，如果为1，则跳转，跳转进地址区域表示的地方（三种操作）</p>
+<img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/image-20191213144439999.png" alt="image-20191213144439999" style="zoom: 50%;">
+
+</li>
+</ul>
+<p>具体执行过程：</p>
+<img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/image-20191213144639132.png" alt="image-20191213144639132" style="zoom:67%;">
+
+<ol>
+<li>控制地址寄存器从控制内存中读取一条CPU微操作执行指令</li>
+<li>控制地址寄存器根据这条指令生成控制信号，同时产生下一条指令的地址</li>
+<li>排序逻辑根据这条信息和ALU标志，将下一条指令装入该控制地址寄存器中</li>
+</ol>
+<ul>
+<li>可以修改，但是比硬连线慢，且比硬连线代价更高</li>
+</ul>
+<h3 id="Internal-processor-bus"><a href="#Internal-processor-bus" class="headerlink" title="Internal processor bus"></a>Internal processor bus</h3><p>使用一个CPU的内部总线，将ALU和寄存器均连到单一的总线上</p>
+<img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/image-20191210154900708.png" alt="image-20191210154900708" style="zoom: 50%;">
+
+<p>页表的大小=页表项的大小*页表的数量</p>
+<h2 id="Input-Output"><a href="#Input-Output" class="headerlink" title="Input/Output"></a>Input/Output</h2><h3 id="I-O-module-function"><a href="#I-O-module-function" class="headerlink" title="I/O module function"></a>I/O module function</h3><p>i/o模块需要和地址线、控制线、数据线都有控制信号的联系</p>
+<img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/image-20191217142402951.png" alt="image-20191217142402951" style="zoom:67%;">
+
+<p>I/O设备内部结构：</p>
+<img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/image-20191217142619917.png" alt="image-20191217142619917" style="zoom:67%;">
+
+<p>作用</p>
+<ul>
+<li>I/O设备信息：命令信息、数据信息、外围设备的状态信息、地址信息</li>
+<li>控制和时间掌握</li>
+<li>数据的缓冲区 data buffering </li>
+<li>数据校验 error correction</li>
+</ul>
+<h3 id="I-O-module-strcuture"><a href="#I-O-module-strcuture" class="headerlink" title="I/O module strcuture"></a>I/O module strcuture</h3><p>数据线：传输数据和状态信息</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191217143136077.png" alt="image-20191217143136077"></p>
+<h4 id="External-interface"><a href="#External-interface" class="headerlink" title="External interface"></a>External interface</h4><p>计算机系统内部为并行</p>
+<p>I/O设备中接口中串联更多</p>
+<p><strong>FireWire</strong>并行：通过增加并行率来增加数据的传输率</p>
+<p><strong>USB</strong>串联</p>
+<h3 id="I-O-operation-technique"><a href="#I-O-operation-technique" class="headerlink" title="I/O  operation technique"></a>I/O  operation technique</h3><h4 id="编程式I-O"><a href="#编程式I-O" class="headerlink" title="编程式I/O"></a>编程式I/O</h4><p>当需要传输数据的时候，处理器直接执行一个程序控制I/O模块，直到I/O模块执行完毕再执行其他程序</p>
+<ul>
+<li>接受命令（command 告诉I/O施行什么工作 instrcution 工作+地址）</li>
+<li>检查状态直到准备完毕</li>
+<li>将数据从I/O to CPU</li>
+<li>再将数据写入内存</li>
+</ul>
+<img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/image-20191217143904881.png" alt="image-20191217143904881" style="zoom:33%;">
+
+<h4 id="中断驱动式-I-O"><a href="#中断驱动式-I-O" class="headerlink" title="中断驱动式 I/O"></a>中断驱动式 I/O</h4><p>CPU的速度比I/O版块快，因此使用programmed I/O会浪费CPU资源，所以使用I/O驱动对于CPU发出中断请求的方式</p>
+<ul>
+<li>I/O设备发出命令请求</li>
+<li>准备过程，释放CPU</li>
+<li>准备完后再向CPU发出请求</li>
+</ul>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/clip_image001.png" alt="img"></p>
+<p>有一个中断控制器，五根线连到中断控制器上，所有的I/O模块共用一个请求线，最后由一个中断控制器来决定</p>
+<p>中断控制器有：</p>
+<ul>
+<li>轮询</li>
+<li>链式</li>
+<li>独立请求</li>
+<li>总线争夺式</li>
+<li>当优先级不固定时，可以分两相应优先级和处理优先级来进行处理</li>
+</ul>
+<h5 id="中断驱动的相应优先级和处理优先级"><a href="#中断驱动的相应优先级和处理优先级" class="headerlink" title="中断驱动的相应优先级和处理优先级"></a>中断驱动的相应优先级和处理优先级</h5><p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191217152059921.png" alt="image-20191217152059921"></p>
+<p>响应优先级：是最先开始进行排序的过程</p>
+<p>处理优先级：如果有处理优先级高的部分，前面待处理的处理优先级低的部分会让位</p>
+<p>——最后的中断处理是先根据响应优先级进行排序，然后根据处理优先级进行让位，“屏蔽”是指可以不进行让位的操作，处理优先级高的或者相等的可以屏蔽处理优先级低的</p>
+<p>（在处理的时候，后面进行了一个处理优先级更高的中断，此时中断被打断/反之则可以屏蔽）</p>
+<p>依据上例进行的中断屏蔽表和实际程序执行为：</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191217153503799.png" alt="image-20191217153503799"></p>
+<h4 id="Direct-memory-access"><a href="#Direct-memory-access" class="headerlink" title="Direct memory access"></a>Direct memory access</h4><h5 id="基本执行模式"><a href="#基本执行模式" class="headerlink" title="基本执行模式"></a>基本执行模式</h5><p>I/O模块直接和主存进行数据交换，不需要CPU参与</p>
+<ul>
+<li><p>当CPU需要进行数据的读取时，对DMA模块发送消息</p>
+<p>消息内容包括：</p>
+<ul>
+<li>是请求读还是写，使用处理器和DMA模块之间的读或者写控制线</li>
+<li>所涉及的I/O设备地址，经数据线通知</li>
+<li>读或写存储器中的起始单元地址，经数据线通知并被DMA模块存入它的地址寄存器中</li>
+<li>读或写的字数，经数据线通知并被DMA模块存入他的数据计数寄存器中</li>
+</ul>
+</li>
+<li><p>CPU继续执行其他操作，DMA模块直接和内存进行数据交流，传输数据完毕后给予CPU一个中断信号</p>
+</li>
+</ul>
+<p>DMA和CPU都需要使用总线连接到内存，当DMA和CPU有数据冲突时，DMA传输数据到内存，因为此时DMA的数据传输过多，buffer容量可能不足，因此DMA有优先使用权</p>
+<img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/Users/李甘霖/Dropbox/Typora-Lotebook-of-LGL/机组/机组.assets/image-20191217154053046.png" alt="image-20191217154053046" style="zoom:50%;">
+
+<h5 id="DMA使用总线模式"><a href="#DMA使用总线模式" class="headerlink" title="DMA使用总线模式"></a>DMA使用总线模式</h5><p>当DMA和内存进行交流时，需要使用总线，使用总线的方法为将CPU挂起或者在不使用CPU时使用DMA</p>
+<h6 id="终止CPU"><a href="#终止CPU" class="headerlink" title="终止CPU"></a>终止CPU</h6><p>方便控制但影响CPU工作</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/clip_image002-1578056187339.png" alt="img"></p>
+<h6 id="cycle-stealing"><a href="#cycle-stealing" class="headerlink" title="cycle stealing"></a>cycle stealing</h6><p>DMA在CPU的周期空隙进行总线的使用</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191217154406972.png" alt="image-20191217154406972"></p>
+<h6 id="alternate-access"><a href="#alternate-access" class="headerlink" title="alternate access"></a>alternate access</h6><p>周期前半段给cpu，后半段给DMA</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191217154418761.png" alt="image-20191217154418761"></p>
+<h5 id="DMA的连接模式："><a href="#DMA的连接模式：" class="headerlink" title="DMA的连接模式："></a>DMA的连接模式：</h5><ul>
+<li><p>单总线模式（独立DMA）</p>
+<p>所有模块共用一条系统总线</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191217154554034.png" alt="image-20191217154554034"></p>
+</li>
+<li><p>单总线模式（继承DMA和I/O）</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191217154603027.png" alt="image-20191217154603027"></p>
+</li>
+<li><p>多总线模式</p>
+<p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191217154611941.png" alt="image-20191217154611941"></p>
+</li>
+</ul>
+<h5 id="全过程："><a href="#全过程：" class="headerlink" title="全过程："></a>全过程：</h5><p><img src="/2020/01/12/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86-2/image-20191217154759748.png" alt="image-20191217154759748"></p>
+
+            </div>
+
+            <!-- Post Comments -->
+            
+
+        </div>
+        <!-- Copyright 版权 start -->
+                <div id="copyright">
+            <ul>
+                <li>&copy;Powered By <a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener" style="border-bottom: none;">hexo</a></li>
+                <li>Design: <a href="http://miccall.tech " target="_blank" rel="noopener" style="border-bottom: none;">miccall</a></li>
+            </ul>
+            
+                <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+			
+        </div>
+    </div>
+</body>
+
+
+
+ 	
+</html>
